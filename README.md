@@ -13,7 +13,8 @@ Usage:
 
 Example:  
     ```rcan can.not.net:23 crtd 0 vcan0 1 vcan1```  
-This example connects to port 23 of the remote computer at the address can.not.net and bridges can bus 0 of the remote computer to the socket-can interface vcan0 of the local computer and can bus 1 to vcan1
+This example connects to port 23 of the remote computer at the address can.not.net and bridges can bus 0 of the remote computer to the socket-can interface vcan0 of the local computer and can bus 1 to vcan1.
+
  
 
 
