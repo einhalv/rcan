@@ -29,6 +29,9 @@ OBJS=rcan.o init_setup.o splitaddrport.o remote_address.o downstream.o upstream.
 rcan:  $(OBJS)
 	$(LD) -o rcan $(OBJS) $(LIBS)
 
+install: rcan
+	cp rcan $(INSBIN) 
+
 clean: 
 	rm -f  $(OBJS)
 
